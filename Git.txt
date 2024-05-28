@@ -13,7 +13,7 @@ git init: Để khởi chạy Repo
 clear: Làm trống
 git remote add origin [Github_Repo_URL]
 git clone [Github_Repo_URL]: Tải Remote Repo xuống máy tính
-git add "file"	
+git add "f
 git commit -m "Mô tả sự thay đổi" 
 git commit --amend -m "Thay đổi mô tả"
 git push origin [branch-name]
@@ -27,3 +27,25 @@ cd .. thoát khỏi folder
 cd [file] : Vào thư mục
 git fetch : Thêm những thay đổi trên Github
 git pull
+
+Cách làm việc với thư mục:
+
+Kiểm tra thư mục hiện tại:
+
+Gõ pwd (print working directory) và nhấn Enter để xem đường dẫn của thư mục hiện tại.
+Liệt kê các tệp và thư mục:
+
+Gõ ls để liệt kê các tệp và thư mục trong thư mục hiện tại.
+Gõ ls -la để liệt kê chi tiết hơn, bao gồm các tệp ẩn.
+Chuyển đến thư mục khác:
+
+Gõ cd tên_thư_mục để chuyển đến thư mục con.
+Gõ cd .. để quay lại thư mục cha.
+Gõ cd ~ để chuyển đến thư mục home của người dùng.
+Tạo thư mục mới:
+
+Gõ mkdir tên_thư_mục để tạo một thư mục mới.
+Xóa thư mục:
+
+Gõ rmdir tên_thư_mục để xóa một thư mục trống.
+Gõ ls để xóa một thư mục và tất cả nội dung bên trong.
